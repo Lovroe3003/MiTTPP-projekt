@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Ferivi WebShop Test">
+    <test name="Open and check website test">
+        <classes>
+            <class name="OpenAndCheckWebsiteTest"/>
+        </classes>
+    </test>
+    <test name="Search for specific products test">
+        <classes>
+            <class name="searchItemsTest"/>
+        </classes>
+    </test>
+    <test name="Select category and filter items">
+        <classes>
+            <class name="filterAndSortItemsTest"/>
+        </classes>
+    </test>
+    <test name="Add to cart test">
+        <classes>
+            <class name="addToCartTest"/>
+        </classes>
+    </test>
+    <test name="Explore page and try to login">
+        <classes>
+            <class name="exploreAndTryLogin"/>
+        </classes>
+    </test>
+</suite>

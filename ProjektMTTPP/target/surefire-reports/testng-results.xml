@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-02-07T20:54:06 CET" name="Ferivi WebShop Test" finished-at="2024-02-07T20:56:54 CET" duration-ms="168547">
+    <groups>
+    </groups>
+    <test started-at="2024-02-07T20:54:06 CET" name="Open and check website test" finished-at="2024-02-07T20:54:35 CET" duration-ms="29447">
+      <class name="OpenAndCheckWebsiteTest">
+        <test-method is-config="true" signature="setupTest()[pri:0, instance:OpenAndCheckWebsiteTest@2b662a77]" started-at="2024-02-07T20:54:06 CET" name="setupTest" finished-at="2024-02-07T20:54:12 CET" duration-ms="6339" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method signature="openFeriviTest()[pri:0, instance:OpenAndCheckWebsiteTest@2b662a77]" started-at="2024-02-07T20:54:12 CET" name="openFeriviTest" finished-at="2024-02-07T20:54:34 CET" duration-ms="21912" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openFeriviTest -->
+        <test-method is-config="true" signature="teardownTest()[pri:0, instance:OpenAndCheckWebsiteTest@2b662a77]" started-at="2024-02-07T20:54:34 CET" name="teardownTest" finished-at="2024-02-07T20:54:35 CET" duration-ms="1105" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardownTest -->
+      </class> <!-- OpenAndCheckWebsiteTest -->
+    </test> <!-- Open and check website test -->
+    <test started-at="2024-02-07T20:54:35 CET" name="Search for specific products test" finished-at="2024-02-07T20:55:04 CET" duration-ms="28935">
+      <class name="searchItemsTest">
+        <test-method is-config="true" signature="setupTest()[pri:0, instance:searchItemsTest@1d296da]" started-at="2024-02-07T20:54:35 CET" name="setupTest" finished-at="2024-02-07T20:54:40 CET" duration-ms="4934" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method signature="filterItemsTest()[pri:0, instance:searchItemsTest@1d296da]" started-at="2024-02-07T20:54:40 CET" name="filterItemsTest" finished-at="2024-02-07T20:55:04 CET" duration-ms="23275" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- filterItemsTest -->
+        <test-method is-config="true" signature="teardownTest()[pri:0, instance:searchItemsTest@1d296da]" started-at="2024-02-07T20:55:04 CET" name="teardownTest" finished-at="2024-02-07T20:55:04 CET" duration-ms="723" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardownTest -->
+      </class> <!-- searchItemsTest -->
+    </test> <!-- Search for specific products test -->
+    <test started-at="2024-02-07T20:55:04 CET" name="Select category and filter items" finished-at="2024-02-07T20:55:36 CET" duration-ms="31403">
+      <class name="filterAndSortItemsTest">
+        <test-method is-config="true" signature="setupTest()[pri:0, instance:filterAndSortItemsTest@206a70ef]" started-at="2024-02-07T20:55:04 CET" name="setupTest" finished-at="2024-02-07T20:55:10 CET" duration-ms="5538" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method signature="selectCategoryTest()[pri:1, instance:filterAndSortItemsTest@206a70ef]" started-at="2024-02-07T20:55:10 CET" name="selectCategoryTest" finished-at="2024-02-07T20:55:28 CET" duration-ms="18574" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectCategoryTest -->
+        <test-method signature="showOnlyDiscountedItemsTest()[pri:2, instance:filterAndSortItemsTest@206a70ef]" started-at="2024-02-07T20:55:28 CET" name="showOnlyDiscountedItemsTest" finished-at="2024-02-07T20:55:35 CET" duration-ms="6815" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- showOnlyDiscountedItemsTest -->
+        <test-method is-config="true" signature="teardownTest()[pri:0, instance:filterAndSortItemsTest@206a70ef]" started-at="2024-02-07T20:55:35 CET" name="teardownTest" finished-at="2024-02-07T20:55:36 CET" duration-ms="470" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardownTest -->
+      </class> <!-- filterAndSortItemsTest -->
+    </test> <!-- Select category and filter items -->
+    <test started-at="2024-02-07T20:55:36 CET" name="Add to cart test" finished-at="2024-02-07T20:56:19 CET" duration-ms="43551">
+      <class name="addToCartTest">
+        <test-method is-config="true" signature="setupTest()[pri:0, instance:addToCartTest@43bc63a3]" started-at="2024-02-07T20:55:36 CET" name="setupTest" finished-at="2024-02-07T20:55:41 CET" duration-ms="5630" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method signature="openSpecificItemPageTest()[pri:1, instance:addToCartTest@43bc63a3]" started-at="2024-02-07T20:55:41 CET" name="openSpecificItemPageTest" finished-at="2024-02-07T20:56:15 CET" duration-ms="33718" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openSpecificItemPageTest -->
+        <test-method signature="addtItemToCartTest()[pri:2, instance:addToCartTest@43bc63a3]" started-at="2024-02-07T20:56:15 CET" name="addtItemToCartTest" finished-at="2024-02-07T20:56:18 CET" duration-ms="3402" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addtItemToCartTest -->
+        <test-method is-config="true" signature="teardownTest()[pri:0, instance:addToCartTest@43bc63a3]" started-at="2024-02-07T20:56:18 CET" name="teardownTest" finished-at="2024-02-07T20:56:19 CET" duration-ms="795" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardownTest -->
+      </class> <!-- addToCartTest -->
+    </test> <!-- Add to cart test -->
+    <test started-at="2024-02-07T20:56:19 CET" name="Explore page and try to login" finished-at="2024-02-07T20:56:54 CET" duration-ms="35137">
+      <class name="exploreAndTryLogin">
+        <test-method is-config="true" signature="setupTest()[pri:0, instance:exploreAndTryLogin@4c402120]" started-at="2024-02-07T20:56:19 CET" name="setupTest" finished-at="2024-02-07T20:56:23 CET" duration-ms="4206" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method signature="exploreLoyaltyClubPageTest()[pri:1, instance:exploreAndTryLogin@4c402120]" started-at="2024-02-07T20:56:23 CET" name="exploreLoyaltyClubPageTest" finished-at="2024-02-07T20:56:48 CET" duration-ms="24409" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- exploreLoyaltyClubPageTest -->
+        <test-method signature="tryLoginTest()[pri:2, instance:exploreAndTryLogin@4c402120]" started-at="2024-02-07T20:56:48 CET" name="tryLoginTest" finished-at="2024-02-07T20:56:54 CET" duration-ms="5874" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tryLoginTest -->
+        <test-method is-config="true" signature="teardownTest()[pri:0, instance:exploreAndTryLogin@4c402120]" started-at="2024-02-07T20:56:54 CET" name="teardownTest" finished-at="2024-02-07T20:56:54 CET" duration-ms="644" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardownTest -->
+      </class> <!-- exploreAndTryLogin -->
+    </test> <!-- Explore page and try to login -->
+  </suite> <!-- Ferivi WebShop Test -->
+</testng-results>

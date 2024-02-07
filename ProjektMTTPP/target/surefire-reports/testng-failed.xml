@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Ferivi WebShop Test]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="5" name="Explore page and try to login(failed)" verbose="0">
+    <classes>
+      <class name="exploreAndTryLogin">
+        <methods>
+          <include name="setupTest"/>
+          <include name="tryLoginTest"/>
+          <include name="teardownTest"/>
+        </methods>
+      </class> <!-- exploreAndTryLogin -->
+    </classes>
+  </test> <!-- Explore page and try to login(failed) -->
+</suite> <!-- Failed suite [Ferivi WebShop Test] -->
