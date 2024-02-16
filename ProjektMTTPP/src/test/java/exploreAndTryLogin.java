@@ -39,7 +39,7 @@ public class exploreAndTryLogin {
         WebElement acceptCookiesButton = driver.findElement(By.xpath("/html/body/aside/div/div/div/button[1]"));
         acceptCookiesButton.click();
         Thread.sleep(3000);
-        WebElement loyaltyCLubBtn = driver.findElement(By.xpath("//*[@id=\"ui-id-148\"]"));
+        WebElement loyaltyCLubBtn = driver.findElement(By.xpath("//*[@id=\"ui-id-193\"]"));
         loyaltyCLubBtn.click();
         Thread.sleep(3000);
         js.executeScript("window.scrollBy(0,600)");

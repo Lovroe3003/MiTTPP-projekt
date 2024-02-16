@@ -29,7 +29,7 @@ public class filterAndSortItemsTest {
         WebElement acceptCookiesButton = driver.findElement(By.xpath("/html/body/aside/div/div/div/button[1]"));
         acceptCookiesButton.click();
         Thread.sleep(5000);
-        WebElement categoryButton = driver.findElement(By.xpath("//*[@id=\"ui-id-37\"]"));
+        WebElement categoryButton = driver.findElement(By.xpath("/html/body/div[1]/header/div/div[5]/div/div[2]/nav/ul/li[2]"));
         Thread.sleep(4000);
         categoryButton.click();
         Thread.sleep(2000);
